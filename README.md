@@ -34,23 +34,15 @@ Script interactivo en Bash para configurar un sistema Debian como **router de m�
    cd segrouter-debian
 Da permisos de ejecución a los scripts:
 
-bash
-Copiar
-Editar
 chmod +x instalar_router.sh
 chmod +x desinstalar_router.sh
+
 Ejecuta el script de instalación:
-
-bash
-Copiar
-Editar
 sudo ./instalar_router.sh
-Si necesitas revertir la configuración:
 
-bash
-Copiar
-Editar
+Si necesitas revertir la configuración:
 sudo ./desinstalar_router.sh
+
 📋 Ejemplo de uso
 Durante la ejecución, el script te permitirá:
 
